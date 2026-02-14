@@ -4,6 +4,32 @@
 # At the end of the program it prints out the total number of tickets desired by the user.  
 # Use either a "for loop" or "while loop" to accomplish this.
 
+# START
+#   |
+#   v
+# Set totalTickets = 0
+#   |
+#   v
+# Ask user: "Do you want to enter a movie? (yes/no)"
+#   |
+#   v
+# Is answer "yes"?
+#   |——No——> Display totalTickets → END
+#   |
+#  Yes
+#   |
+#   v
+# Ask for movie name
+# Ask for number of tickets
+#   |
+#   v
+# Add tickets to totalTickets
+#   |
+#   v
+# Ask user again: "Do you want to enter another movie?"
+#   |
+#   v
+# (loop back to decision)      
 def main():
     total_tickets = 0
 

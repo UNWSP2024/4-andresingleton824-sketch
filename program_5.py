@@ -5,6 +5,20 @@
 # When the loop finishes, the program should display the amount that the 
 # user is over or under budget.
 
+# Pseudocode – Program #5: Bank Balance
+# Ask user for monthly budget
+# Input budget
+# totalExpenses = 0
+# WHILE user has more expenses
+#     Ask user to enter an expense
+#     Add expense to totalExpenses
+# END WHILE
+# IF totalExpenses > budget
+#     Display "You are over budget by $" (totalExpenses - budget)
+# ELSE
+#     Display "You are under budget by $" (budget - totalExpenses)
+# END IF
+
 def main():
     budget = 0.0
     difference = 0.0
