@@ -18,11 +18,11 @@
 # ELSE
 #     Display "You are under budget by $" (budget - totalExpenses)
 # END IF
-
 def main():
+
     budget = 0.0
     difference = 0.0
-    spent = 1.0         #initialize for while loop
+    spent = 1.0         # initialize for while loop
     total = 0.0
 
     budget = float(input("Enter your monthly budget: "))
@@ -34,12 +34,11 @@ def main():
     difference = budget - total
 
     if difference > 0:
-        print("You are under budget by $", difference)
+        print("You are under budget by $" + str(difference))
     elif difference < 0:
-        print("You are over budget by $", abs(difference))
+        print("You are over budget by $" + str(abs(difference)))
     else:
         print("You spent exactly your budget.")
-
 
 if __name__ == '__main__':
     main()
